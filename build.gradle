@@ -119,6 +119,7 @@ allprojects {
 publishing {
     publications {
         pluginZip(MavenPublication) { publication ->
+//            groupId = 'org.opensearch.plugin'
             pom {
                 name = "opensearch-job-scheduler"
                 description = "OpenSearch Job Scheduler plugin"

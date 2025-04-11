@@ -204,7 +204,6 @@ dependencies {
 
     agent "org.opensearch:opensearch-agent-bootstrap:${opensearch_version}"
     agent "org.opensearch:opensearch-agent:${opensearch_version}"
-    agent "net.bytebuddy:byte-buddy:${versions.bytebuddy}"
 
     opensearchPlugin "org.opensearch.plugin:opensearch-security:${security_plugin_version}@zip"
 }

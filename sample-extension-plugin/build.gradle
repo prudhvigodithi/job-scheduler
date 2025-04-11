@@ -42,7 +42,6 @@ dependencies {
 
     agent "org.opensearch:opensearch-agent-bootstrap:${opensearch_version}"
     agent "org.opensearch:opensearch-agent:${opensearch_version}"
-    agent "net.bytebuddy:byte-buddy:1.17.5"
 }
 
 def es_tmp_dir = rootProject.file('build/private/es_tmp').absoluteFile
